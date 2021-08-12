@@ -1,4 +1,6 @@
 import { BaseEntity } from 'typeorm';
+import { Status } from 'src/status/interfaces/status.entity';
+import { Tipos } from 'src/tipos/interfaces/tipos.entity';
 export declare class Indicacao extends BaseEntity {
     id: number;
     status_id: number;
@@ -70,4 +72,6 @@ export declare class Indicacao extends BaseEntity {
     atualizado: number;
     created: Date;
     modified: Date;
+    status: Status;
+    tipo: Tipos;
 }

@@ -1,5 +1,6 @@
-import { BaseEntity, Column, Entity, PrimaryGeneratedColumn } from 'typeorm';
+import { BaseEntity, Column, Entity, ManyToOne, OneToMany, PrimaryGeneratedColumn } from 'typeorm';
 import { IsString, Max, MaxLength, Min, MinLength } from 'class-validator';
+import { Indicacao } from 'src/indicacoes/interfaces/indicacoes.entity';
 
 @Entity('status')
 export class Status extends BaseEntity {
@@ -40,4 +41,7 @@ export class Status extends BaseEntity {
         type: "date"
     })
     modified: Date
+
+    @OneToMany(type => Indicacao, indicacao => indicacao.status)
+    indicacao: Indicacao[];
 }

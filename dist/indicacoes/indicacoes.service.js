@@ -23,7 +23,8 @@ let IndicacoesService = class IndicacoesService {
     }
     async getIndicacoes() {
         return await this.indicacaoRepository.find({
-            take: 50000
+            relations: ['status', 'tipo'],
+            take: 1000
         });
     }
 };

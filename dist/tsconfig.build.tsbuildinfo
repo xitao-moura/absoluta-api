@@ -1762,7 +1762,7 @@
         "affectsGlobalScope": false
       },
       "../src/common/environment.ts": {
-        "version": "d0cb9bf4fe610e308efe3fdcd704ff1547db7429bfd02ae00c2f615d8bc28b74",
+        "version": "ee8a9e02467b419c590479b971d4ce8555bd355659f9b9bca3001b6afb8f2aa8",
         "signature": "48675edfc0c4050c99ec0a338a4075d5b086b8ddf59d86628e8912b69cda1f0c",
         "affectsGlobalScope": false
       },
@@ -2074,41 +2074,6 @@
       "../src/estados/estados.module.ts": {
         "version": "cda44cb08e0f585bf9332bfd196d09516f8c3b0368905c3ef6d40193b3d52d63",
         "signature": "ff46ff240a1ee9aa15e5bc20a3f0218e75570d13db8136421cd972f3a1777a6c",
-        "affectsGlobalScope": false
-      },
-      "../src/origens/dtos/create-origens.dto.ts": {
-        "version": "83511ec51b9b543f8d151a8c6b62efb86714c438b59762a1aaa72df70d8c9e77",
-        "signature": "247821bc259db736d0b5853a50e0bf5422d4eefb00d025bf9fea3b6f86d81f0a",
-        "affectsGlobalScope": false
-      },
-      "../src/origens/dtos/update-origens.dto.ts": {
-        "version": "24fb0bc02f51a1743ffd54e4401cd6b17a47535829903ddb2c2bb1960f87742f",
-        "signature": "e8cacc55fda9c49633ff49a1d1db7865a119c653031a96c08d0ef6c4a8ef1c82",
-        "affectsGlobalScope": false
-      },
-      "../src/origens/interfaces/origens.interface.ts": {
-        "version": "97d00f36fb6b4fe8d474f8fb9cd724241a8cab79bffc35e35a348437711a04cc",
-        "signature": "7b5ac40c06561f87a0d44b1e3c0a9ff2c235cacacccdea16104a793ab7630c48",
-        "affectsGlobalScope": false
-      },
-      "../src/origens/origens.service.ts": {
-        "version": "95f93ad8ac14869c4d10d652a420d344b92f85209c3e81e32749d186ee105dbc",
-        "signature": "fb70f848c38f5eedb9e5b0a9b700071d1aa3f2322ebc3802bd7e902a6b846b5b",
-        "affectsGlobalScope": false
-      },
-      "../src/origens/origens.controller.ts": {
-        "version": "971f4b5d8e4cb9919e97b121a09cdc7b95e39ba563868a8d1937624658bcf706",
-        "signature": "acb8eec95ca89e838ff17b65c3fa9f2ef94fdf3c2b02c040da00099addf60484",
-        "affectsGlobalScope": false
-      },
-      "../src/origens/interfaces/origens.schema.ts": {
-        "version": "9a82377551f6cf939f8a544b636034a8f9e33f9005299f015f8d404f70f39f6d",
-        "signature": "4cc386e790200d269efe73e1ed3f16ddf5b2c761a794147d1c1d7a99d7ae69e0",
-        "affectsGlobalScope": false
-      },
-      "../src/origens/origens.module.ts": {
-        "version": "5099712736233facfb29e3c8bcf68ab6cbb23d9e898544211a8b2f32547c96d6",
-        "signature": "d446f93e074ce99b245ec16a66f3af02fd0d97a1ff56ab719522658c7cac44f4",
         "affectsGlobalScope": false
       },
       "../src/status/dtos/create-status.dto.ts": {
@@ -4431,9 +4396,19 @@
         "signature": "1d5f30cbd06ffa2aab22346b087e140f069851c17b91189be8d1e168d53f9f93",
         "affectsGlobalScope": false
       },
+      "../src/tipos/interfaces/tipos.entity.ts": {
+        "version": "7f16316d5efa2680f6be0ae5f8ae6787aefcdd22b6b38c1a9856df535fdfe538",
+        "signature": "5ef40e8dd959ff9be748576532eb5f08a463fda0f0f50fb0aaaaa5abbedc402f",
+        "affectsGlobalScope": false
+      },
+      "../src/indicacoes/interfaces/indicacoes.entity.ts": {
+        "version": "3d652b8f61c1380c5b7d97c8606705374fc599bab16ac8681015323b2073ed49",
+        "signature": "8bc81c145b0c9c194fb4a7beea744cdad652f382f239ba531160bf20a5409276",
+        "affectsGlobalScope": false
+      },
       "../src/status/interfaces/status.entity.ts": {
-        "version": "780a24f12a7d366a289d3d01eaf803af549393777e574cb751cb41f1920232c7",
-        "signature": "afad6736d6227ecee04c1bf002dac78e41d5745851f7381a1e305f258eab9d0d",
+        "version": "690e107dd12ffadfe26efa90580a24f866fb3ee2cc59648b46c75ff36059d025",
+        "signature": "71eb078f7e750871bf3aad80886f737eaba89a068cbbd4edcb5c94dc3f5b9613",
         "affectsGlobalScope": false
       },
       "../src/status/status.service.ts": {
@@ -4636,19 +4611,14 @@
         "signature": "6da3ff1ef628fcb3d94ff8f74df55c45cb677da6ce2256e2faa340894f5b915a",
         "affectsGlobalScope": false
       },
-      "../src/indicacoes/interfaces/indicacoes.entity.ts": {
-        "version": "926016063506d0b5a51ffb742280c854b7159eef6b13feb673261ac08d362748",
-        "signature": "e8acdae98cb5414b576d881d14a31c0bccdcab354135136b86f88a2a51f32a9b",
-        "affectsGlobalScope": false
-      },
       "../src/indicacoes/indicacoes.service.ts": {
-        "version": "a2b921b984582f6312895c8b8413d006be5e5c6dcf1c265183bd6a9d4ae98ee3",
-        "signature": "1c65853458a414bd1bc78505cdbbcf5885d070998430e9efd3389f00f7d8b682",
+        "version": "afc77cf32186a1962c9f4fe228184ebf93f4be9801786bc8ddb6d470b6637212",
+        "signature": "4f481ab366e88b2eddde4f012a729d5b0ee37fecf3d0336cf8d22c998d2aba81",
         "affectsGlobalScope": false
       },
       "../src/indicacoes/indicacoes.controller.ts": {
         "version": "3ae86aa4bb51c2e5443c55877398edde4e1f2e2c0d1fc6665ab483b7f8bdba5b",
-        "signature": "e7e174b2513d9aab8eacf379cb68473bab482492dd935397e8f1db12b609c258",
+        "signature": "ee6b30dcc5f11acf5ae5e3c30224a72f5ecf1986fe750d36b000a62667208144",
         "affectsGlobalScope": false
       },
       "../src/indicacoes/indicacoes.module.ts": {
@@ -4657,7 +4627,7 @@
         "affectsGlobalScope": false
       },
       "../src/app.module.ts": {
-        "version": "34255fd9765e872592334bd627f0e32c775b1a63a0cca74f370a6e75dad0eb95",
+        "version": "0008b97b3434809164aa8ef037429511e2969fa6f0b48b8b90a3132646aa11e7",
         "signature": "b82491e2990291580288c5602d4c017238977749d52b17391f0e45d9a29be644",
         "affectsGlobalScope": false
       },
@@ -8455,7 +8425,6 @@
         "../src/estados/estados.module.ts",
         "../src/fornecedores/fornecedores.module.ts",
         "../src/indicacoes/indicacoes.module.ts",
-        "../src/origens/origens.module.ts",
         "../src/produtos/produtos.module.ts",
         "../src/profissoes/profissoes.module.ts",
         "../src/status/status.module.ts",
@@ -8739,49 +8708,17 @@
         "../src/indicacoes/interfaces/indicacoes.entity.ts"
       ],
       "../src/indicacoes/interfaces/indicacoes.entity.ts": [
+        "../node_modules/@types/node/os.d.ts",
         "../node_modules/class-validator/types/index.d.ts",
-        "../node_modules/typeorm/index.d.ts"
+        "../node_modules/typeorm/index.d.ts",
+        "../src/status/interfaces/status.entity.ts",
+        "../src/tipos/interfaces/tipos.entity.ts"
       ],
       "../src/main.ts": [
         "../node_modules/@nestjs/core/index.d.ts",
         "../node_modules/@nestjs/swagger/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../src/app.module.ts"
-      ],
-      "../src/origens/dtos/create-origens.dto.ts": [
-        "../node_modules/@nestjs/swagger/index.d.ts"
-      ],
-      "../src/origens/dtos/update-origens.dto.ts": [
-        "../node_modules/@nestjs/swagger/index.d.ts"
-      ],
-      "../src/origens/interfaces/origens.interface.ts": [
-        "../node_modules/@types/mongoose/index.d.ts"
-      ],
-      "../src/origens/interfaces/origens.schema.ts": [
-        "../node_modules/@types/mongoose/index.d.ts",
-        "../src/origens/interfaces/origens.interface.ts"
-      ],
-      "../src/origens/origens.controller.ts": [
-        "../node_modules/@nestjs/common/index.d.ts",
-        "../src/origens/dtos/create-origens.dto.ts",
-        "../src/origens/dtos/update-origens.dto.ts",
-        "../src/origens/interfaces/origens.interface.ts",
-        "../src/origens/origens.service.ts"
-      ],
-      "../src/origens/origens.module.ts": [
-        "../node_modules/@nestjs/common/index.d.ts",
-        "../node_modules/@nestjs/mongoose/index.d.ts",
-        "../src/origens/interfaces/origens.schema.ts",
-        "../src/origens/origens.controller.ts",
-        "../src/origens/origens.service.ts"
-      ],
-      "../src/origens/origens.service.ts": [
-        "../node_modules/@nestjs/common/index.d.ts",
-        "../node_modules/@nestjs/mongoose/index.d.ts",
-        "../node_modules/@types/mongoose/index.d.ts",
-        "../src/origens/dtos/create-origens.dto.ts",
-        "../src/origens/dtos/update-origens.dto.ts",
-        "../src/origens/interfaces/origens.interface.ts"
       ],
       "../src/produtos/dtos/create-produtos.dto.ts": [
         "../node_modules/@nestjs/swagger/index.d.ts"
@@ -8860,7 +8797,8 @@
       ],
       "../src/status/interfaces/status.entity.ts": [
         "../node_modules/class-validator/types/index.d.ts",
-        "../node_modules/typeorm/index.d.ts"
+        "../node_modules/typeorm/index.d.ts",
+        "../src/indicacoes/interfaces/indicacoes.entity.ts"
       ],
       "../src/status/interfaces/status.interface.ts": [
         "../node_modules/@types/mongoose/index.d.ts"
@@ -8900,6 +8838,11 @@
       ],
       "../src/tipos/dtos/update-tipos.dto.ts": [
         "../node_modules/@nestjs/swagger/index.d.ts"
+      ],
+      "../src/tipos/interfaces/tipos.entity.ts": [
+        "../node_modules/class-validator/types/index.d.ts",
+        "../node_modules/typeorm/index.d.ts",
+        "../src/indicacoes/interfaces/indicacoes.entity.ts"
       ],
       "../src/tipos/interfaces/tipos.interface.ts": [
         "../node_modules/@types/mongoose/index.d.ts"
@@ -12398,33 +12341,16 @@
         "../node_modules/@types/mongoose/index.d.ts"
       ],
       "../src/indicacoes/indicacoes.controller.ts": [
-        "../src/indicacoes/indicacoes.service.ts",
-        "../src/indicacoes/interfaces/indicacoes.entity.ts"
+        "../src/indicacoes/indicacoes.service.ts"
       ],
       "../src/indicacoes/indicacoes.service.ts": [
         "../node_modules/typeorm/index.d.ts",
         "../src/indicacoes/interfaces/indicacoes.entity.ts"
       ],
       "../src/indicacoes/interfaces/indicacoes.entity.ts": [
-        "../node_modules/typeorm/index.d.ts"
-      ],
-      "../src/origens/interfaces/origens.interface.ts": [
-        "../node_modules/@types/mongoose/index.d.ts"
-      ],
-      "../src/origens/interfaces/origens.schema.ts": [
-        "../node_modules/@types/mongoose/index.d.ts"
-      ],
-      "../src/origens/origens.controller.ts": [
-        "../src/origens/dtos/create-origens.dto.ts",
-        "../src/origens/dtos/update-origens.dto.ts",
-        "../src/origens/interfaces/origens.interface.ts",
-        "../src/origens/origens.service.ts"
-      ],
-      "../src/origens/origens.service.ts": [
-        "../node_modules/@types/mongoose/index.d.ts",
-        "../src/origens/dtos/create-origens.dto.ts",
-        "../src/origens/dtos/update-origens.dto.ts",
-        "../src/origens/interfaces/origens.interface.ts"
+        "../node_modules/typeorm/index.d.ts",
+        "../src/status/interfaces/status.entity.ts",
+        "../src/tipos/interfaces/tipos.entity.ts"
       ],
       "../src/produtos/interfaces/produtos.interface.ts": [
         "../node_modules/@types/mongoose/index.d.ts"
@@ -12463,7 +12389,8 @@
         "../src/profissoes/interfaces/profissoes.interface.ts"
       ],
       "../src/status/interfaces/status.entity.ts": [
-        "../node_modules/typeorm/index.d.ts"
+        "../node_modules/typeorm/index.d.ts",
+        "../src/indicacoes/interfaces/indicacoes.entity.ts"
       ],
       "../src/status/interfaces/status.interface.ts": [
         "../node_modules/@types/mongoose/index.d.ts"
@@ -12478,6 +12405,10 @@
       "../src/status/status.service.ts": [
         "../node_modules/typeorm/index.d.ts",
         "../src/status/interfaces/status.entity.ts"
+      ],
+      "../src/tipos/interfaces/tipos.entity.ts": [
+        "../node_modules/typeorm/index.d.ts",
+        "../src/indicacoes/interfaces/indicacoes.entity.ts"
       ],
       "../src/tipos/interfaces/tipos.interface.ts": [
         "../node_modules/@types/mongoose/index.d.ts"
@@ -13499,13 +13430,6 @@
       "../src/indicacoes/indicacoes.service.ts",
       "../src/indicacoes/interfaces/indicacoes.entity.ts",
       "../src/main.ts",
-      "../src/origens/dtos/create-origens.dto.ts",
-      "../src/origens/dtos/update-origens.dto.ts",
-      "../src/origens/interfaces/origens.interface.ts",
-      "../src/origens/interfaces/origens.schema.ts",
-      "../src/origens/origens.controller.ts",
-      "../src/origens/origens.module.ts",
-      "../src/origens/origens.service.ts",
       "../src/produtos/dtos/create-produtos.dto.ts",
       "../src/produtos/dtos/update-produtos.dto.ts",
       "../src/produtos/interfaces/produtos.interface.ts",
@@ -13530,6 +13454,7 @@
       "../src/status/status.service.ts",
       "../src/tipos/dtos/create-tipos.dto.ts",
       "../src/tipos/dtos/update-tipos.dto.ts",
+      "../src/tipos/interfaces/tipos.entity.ts",
       "../src/tipos/interfaces/tipos.interface.ts",
       "../src/tipos/interfaces/tipos.schema.ts",
       "../src/tipos/tipos.controller.ts",

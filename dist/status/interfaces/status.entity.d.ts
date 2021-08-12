@@ -1,4 +1,5 @@
 import { BaseEntity } from 'typeorm';
+import { Indicacao } from 'src/indicacoes/interfaces/indicacoes.entity';
 export declare class Status extends BaseEntity {
     id: number;
     nome: string;
@@ -7,4 +8,5 @@ export declare class Status extends BaseEntity {
     descricao: string;
     created: Date;
     modified: Date;
+    indicacao: Indicacao[];
 }

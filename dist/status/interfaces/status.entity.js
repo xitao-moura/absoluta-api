@@ -11,6 +11,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Status = void 0;
 const typeorm_1 = require("typeorm");
+const indicacoes_entity_1 = require("../../indicacoes/interfaces/indicacoes.entity");
 let Status = class Status extends typeorm_1.BaseEntity {
 };
 __decorate([
@@ -58,6 +59,10 @@ __decorate([
     }),
     __metadata("design:type", Date)
 ], Status.prototype, "modified", void 0);
+__decorate([
+    typeorm_1.OneToMany(type => indicacoes_entity_1.Indicacao, indicacao => indicacao.status),
+    __metadata("design:type", Array)
+], Status.prototype, "indicacao", void 0);
 Status = __decorate([
     typeorm_1.Entity('status')
 ], Status);

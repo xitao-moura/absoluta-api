@@ -11,6 +11,8 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Indicacao = void 0;
 const typeorm_1 = require("typeorm");
+const status_entity_1 = require("../../status/interfaces/status.entity");
+const tipos_entity_1 = require("../../tipos/interfaces/tipos.entity");
 let Indicacao = class Indicacao extends typeorm_1.BaseEntity {
 };
 __decorate([
@@ -478,6 +480,16 @@ __decorate([
     }),
     __metadata("design:type", Date)
 ], Indicacao.prototype, "modified", void 0);
+__decorate([
+    typeorm_1.ManyToOne(type => status_entity_1.Status),
+    typeorm_1.JoinColumn({ name: 'status_id', referencedColumnName: 'id' }),
+    __metadata("design:type", status_entity_1.Status)
+], Indicacao.prototype, "status", void 0);
+__decorate([
+    typeorm_1.ManyToOne(type => tipos_entity_1.Tipos),
+    typeorm_1.JoinColumn({ name: 'tipo_id', referencedColumnName: 'id' }),
+    __metadata("design:type", tipos_entity_1.Tipos)
+], Indicacao.prototype, "tipo", void 0);
 Indicacao = __decorate([
     typeorm_1.Entity('indicacoes')
 ], Indicacao);

@@ -1,5 +1,9 @@
-import { BaseEntity, Column, Entity, PrimaryGeneratedColumn } from 'typeorm';
+import { BaseEntity, Column, Entity, JoinColumn, JoinTable, ManyToOne, OneToMany, PrimaryGeneratedColumn } from 'typeorm';
 import { IsString, Max, MaxLength, Min, MinLength } from 'class-validator';
+import { type } from 'os';
+import { Status } from 'src/status/interfaces/status.entity';
+import { Tipos } from 'src/tipos/interfaces/tipos.entity';
+//import { Origens } from 'src/origens/interfaces/origens.entity';
 
 @Entity('indicacoes')
 export class Indicacao extends BaseEntity {
@@ -397,4 +401,16 @@ export class Indicacao extends BaseEntity {
         type: "date"
     })
     modified: Date
+
+    @ManyToOne(type => Status)
+    @JoinColumn({name: 'status_id', referencedColumnName: 'id'})
+    status: Status;
+
+    @ManyToOne(type => Tipos)
+    @JoinColumn({name: 'tipo_id', referencedColumnName: 'id'})
+    tipo: Tipos;
+
+    // @ManyToOne(type => Origens)
+    // @JoinColumn({name: 'site_id', referencedColumnName: 'id'})
+    // origem: Origens;
 }

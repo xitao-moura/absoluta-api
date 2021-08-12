@@ -8,7 +8,7 @@ import { ProfissoesModule } from './profissoes/profissoes.module';
 import { CategoriasModule } from './categorias/categorias.module'
 import { CidadesModule } from './cidades/cidades.module'
 import { EstadosModule } from './estados/estados.module'
-import { OrigensModule } from './origens/origens.module'
+//import { OrigensModule } from './origens/origens.module'
 import { StatusModule } from './status/status.module'
 import { TiposModule } from './tipos/tipos.module'
 import { FornecedoresModule } from './fornecedores/fornecedores.module';
@@ -43,7 +43,7 @@ import { IndicacoesModule } from './indicacoes/indicacoes.module'
     CategoriasModule,
     CidadesModule,
     EstadosModule,
-    OrigensModule,
+    //OrigensModule,
     StatusModule,
     TiposModule,
     FornecedoresModule,
