@@ -4,7 +4,7 @@ export class CreateProfissaoDto {
     @ApiProperty()
     nome: string
     @ApiProperty()
-    status: string
+    status_id: string
     createdAt: Date
     updatedAt: Date
 }

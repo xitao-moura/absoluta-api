@@ -20,6 +20,6 @@ __decorate([
 __decorate([
     swagger_1.ApiProperty(),
     __metadata("design:type", String)
-], CreateProfissaoDto.prototype, "status", void 0);
+], CreateProfissaoDto.prototype, "status_id", void 0);
 exports.CreateProfissaoDto = CreateProfissaoDto;
 //# sourceMappingURL=create-profissoes.dto.js.map

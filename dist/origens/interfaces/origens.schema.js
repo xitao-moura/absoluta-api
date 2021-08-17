@@ -1,14 +1,10 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.SiteSchema = void 0;
+exports.OrigensSchema = void 0;
 const mongoose = require("mongoose");
-exports.SiteSchema = new mongoose.Schema({
+exports.OrigensSchema = new mongoose.Schema({
     nome: {
         type: String,
-        required: true
-    },
-    status: {
-        type: Number,
         required: true
     },
     createdAt: {
@@ -19,5 +15,5 @@ exports.SiteSchema = new mongoose.Schema({
         type: Date,
         default: Date.now
     }
-}, { timestamps: true, collection: 'sites' });
+}, { timestamps: true, collection: 'origens' });
 //# sourceMappingURL=origens.schema.js.map

@@ -1,1 +1,1 @@
-{"version":3,"file":"update-origens.dto.js","sourceRoot":"","sources":["../../../src/origens/dtos/update-origens.dto.ts"],"names":[],"mappings":";;;;;;;;;;;;AAAA,6CAA8C;AAE9C,MAAa,eAAe;CAM3B;AAJG;IADC,qBAAW,EAAE;;6CACF;AAEZ;IADC,qBAAW,EAAE;8BACN,MAAM;+CAAA;AAJlB,0CAMC"}
+{"version":3,"file":"update-origens.dto.js","sourceRoot":"","sources":["../../../src/origens/dtos/update-origens.dto.ts"],"names":[],"mappings":";;;;;;;;;;;;AAAA,6CAA8C;AAE9C,MAAa,gBAAgB;CAI5B;AAFG;IADC,qBAAW,EAAE;;8CACF;AAFhB,4CAIC"}

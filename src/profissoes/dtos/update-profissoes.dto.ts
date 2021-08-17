@@ -4,6 +4,6 @@ export class UpdateProfissaoDto {
     @ApiProperty()
     nome: string
     @ApiProperty()
-    status: string
+    status_id: string
     updatedAt: Date
 }

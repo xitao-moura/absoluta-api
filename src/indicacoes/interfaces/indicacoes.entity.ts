@@ -3,6 +3,9 @@ import { IsString, Max, MaxLength, Min, MinLength } from 'class-validator';
 import { type } from 'os';
 import { Status } from 'src/status/interfaces/status.entity';
 import { Tipos } from 'src/tipos/interfaces/tipos.entity';
+import { Origens } from 'src/origens/interfaces/origens.entity';
+import { Profissoes } from 'src/profissoes/interfaces/profissoes.entity';
+import { Encaminhamento } from 'src/encaminhamentos/interfaces/encaminhamentos.entity';
 //import { Origens } from 'src/origens/interfaces/origens.entity';
 
 @Entity('indicacoes')
@@ -410,7 +413,11 @@ export class Indicacao extends BaseEntity {
     @JoinColumn({name: 'tipo_id', referencedColumnName: 'id'})
     tipo: Tipos;
 
-    // @ManyToOne(type => Origens)
-    // @JoinColumn({name: 'site_id', referencedColumnName: 'id'})
-    // origem: Origens;
+    @ManyToOne(type => Origens)
+    @JoinColumn({name: 'site_id', referencedColumnName: 'id'})
+    origem: Origens;
+
+    @ManyToOne(type => Profissoes)
+    @JoinColumn({name: 'profissao_id', referencedColumnName: 'id'})
+    profissao: Profissoes;
 }

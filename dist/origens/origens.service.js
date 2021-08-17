@@ -11,52 +11,41 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var __param = (this && this.__param) || function (paramIndex, decorator) {
     return function (target, key) { decorator(target, key, paramIndex); }
 };
-var SitesService_1;
+var OrigensService_1;
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.SitesService = void 0;
+exports.OrigensService = void 0;
 const common_1 = require("@nestjs/common");
-const mongoose_1 = require("@nestjs/mongoose");
-const mongoose_2 = require("mongoose");
-let SitesService = SitesService_1 = class SitesService {
-    constructor(origensModel) {
-        this.origensModel = origensModel;
-        this.logger = new common_1.Logger(SitesService_1.name);
+const typeorm_1 = require("@nestjs/typeorm");
+const origens_entity_1 = require("./interfaces/origens.entity");
+const typeorm_2 = require("typeorm");
+let OrigensService = OrigensService_1 = class OrigensService {
+    constructor(indicacaoRepository) {
+        this.indicacaoRepository = indicacaoRepository;
+        this.logger = new common_1.Logger(OrigensService_1.name);
     }
-    async criarOrigem(createOrigemDto) {
-        const origemCriado = new this.origensModel(createOrigemDto);
-        origemCriado.save((error, doc) => {
-            console.log(doc);
+    async consultarTodosStatus() {
+        return await this.indicacaoRepository.find();
+    }
+    async consultarStatusKey(_id) {
+        const statusEncontrado = await this.indicacaoRepository.findOne({
+            where: {
+                id: _id
+            }
+        });
+        if (!statusEncontrado) {
+            throw new common_1.BadRequestException(`Status com o _id ${_id} não encontrado`);
+        }
+        return await this.indicacaoRepository.findOne({
+            where: {
+                id: _id
+            }
         });
     }
-    async atualizarOrigem(_id, updateOrigemDto) {
-        const origemCriado = await this.origensModel.findOne({ _id }).exec();
-        if (!origemCriado) {
-            throw new common_1.BadRequestException(`Origem com o _id ${_id} não encontrado`);
-        }
-        return await this.origensModel.findOneAndUpdate({ _id: _id }, { $set: updateOrigemDto }).exec();
-    }
-    async consultarTodosOrigem() {
-        return await this.origensModel.find().exec();
-    }
-    async consultarOrigemKey(_id) {
-        const origemCriado = await this.origensModel.findOne({ _id }).exec();
-        if (!origemCriado) {
-            throw new common_1.BadRequestException(`Origem com o _id ${_id} não encontrado`);
-        }
-        return await this.origensModel.findOne({ _id }).exec();
-    }
-    async deletarOrigem(_id) {
-        const origemCriado = await this.origensModel.findOne({ _id }).exec();
-        if (!origemCriado) {
-            throw new common_1.BadRequestException(`Origem com o _id ${_id} não encontrado`);
-        }
-        await this.origensModel.deleteOne({ _id }).exec();
-    }
 };
-SitesService = SitesService_1 = __decorate([
+OrigensService = OrigensService_1 = __decorate([
     common_1.Injectable(),
-    __param(0, mongoose_1.InjectModel('Site')),
-    __metadata("design:paramtypes", [mongoose_2.Model])
-], SitesService);
-exports.SitesService = SitesService;
+    __param(0, typeorm_1.InjectRepository(origens_entity_1.Origens)),
+    __metadata("design:paramtypes", [typeorm_2.Repository])
+], OrigensService);
+exports.OrigensService = OrigensService;
 //# sourceMappingURL=origens.service.js.map
