@@ -1,5 +1,4 @@
-export declare class UpdateOrigemDto {
+export declare class UpdateOrigensDto {
     nome: string;
-    status: Number;
     updatedAt: Date;
 }

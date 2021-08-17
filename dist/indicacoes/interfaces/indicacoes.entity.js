@@ -13,6 +13,9 @@ exports.Indicacao = void 0;
 const typeorm_1 = require("typeorm");
 const status_entity_1 = require("../../status/interfaces/status.entity");
 const tipos_entity_1 = require("../../tipos/interfaces/tipos.entity");
+const origens_entity_1 = require("../../origens/interfaces/origens.entity");
+const profissoes_entity_1 = require("../../profissoes/interfaces/profissoes.entity");
+const encaminhamentos_entity_1 = require("../../encaminhamentos/interfaces/encaminhamentos.entity");
 let Indicacao = class Indicacao extends typeorm_1.BaseEntity {
 };
 __decorate([
@@ -490,6 +493,16 @@ __decorate([
     typeorm_1.JoinColumn({ name: 'tipo_id', referencedColumnName: 'id' }),
     __metadata("design:type", tipos_entity_1.Tipos)
 ], Indicacao.prototype, "tipo", void 0);
+__decorate([
+    typeorm_1.ManyToOne(type => origens_entity_1.Origens),
+    typeorm_1.JoinColumn({ name: 'site_id', referencedColumnName: 'id' }),
+    __metadata("design:type", origens_entity_1.Origens)
+], Indicacao.prototype, "origem", void 0);
+__decorate([
+    typeorm_1.ManyToOne(type => profissoes_entity_1.Profissoes),
+    typeorm_1.JoinColumn({ name: 'profissao_id', referencedColumnName: 'id' }),
+    __metadata("design:type", profissoes_entity_1.Profissoes)
+], Indicacao.prototype, "profissao", void 0);
 Indicacao = __decorate([
     typeorm_1.Entity('indicacoes')
 ], Indicacao);

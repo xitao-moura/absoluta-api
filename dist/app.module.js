@@ -17,6 +17,7 @@ const profissoes_module_1 = require("./profissoes/profissoes.module");
 const categorias_module_1 = require("./categorias/categorias.module");
 const cidades_module_1 = require("./cidades/cidades.module");
 const estados_module_1 = require("./estados/estados.module");
+const origens_module_1 = require("./origens/origens.module");
 const status_module_1 = require("./status/status.module");
 const tipos_module_1 = require("./tipos/tipos.module");
 const fornecedores_module_1 = require("./fornecedores/fornecedores.module");
@@ -51,6 +52,7 @@ AppModule = __decorate([
             categorias_module_1.CategoriasModule,
             cidades_module_1.CidadesModule,
             estados_module_1.EstadosModule,
+            origens_module_1.OrigensModule,
             status_module_1.StatusModule,
             tipos_module_1.TiposModule,
             fornecedores_module_1.FornecedoresModule,

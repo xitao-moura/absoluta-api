@@ -1,5 +1,5 @@
 export declare class UpdateProfissaoDto {
     nome: string;
-    status: string;
+    status_id: string;
     updatedAt: Date;
 }
