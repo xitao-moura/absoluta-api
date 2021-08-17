@@ -1762,7 +1762,7 @@
         "affectsGlobalScope": false
       },
       "../src/common/environment.ts": {
-        "version": "ee8a9e02467b419c590479b971d4ce8555bd355659f9b9bca3001b6afb8f2aa8",
+        "version": "b15153b42afe010f10649316ee6c36eaa9d130fd29cb958120c437a4a01b3fbf",
         "signature": "48675edfc0c4050c99ec0a338a4075d5b086b8ddf59d86628e8912b69cda1f0c",
         "affectsGlobalScope": false
       },
