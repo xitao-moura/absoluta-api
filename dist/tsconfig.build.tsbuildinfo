@@ -1937,18 +1937,18 @@
         "affectsGlobalScope": false
       },
       "../src/profissoes/dtos/create-profissoes.dto.ts": {
-        "version": "656ba16ed1b26555244ee6973d990e8a84ff1056590dd328a7573de1e8cf59c6",
-        "signature": "e9a5b197f31c07c6207afaa68001ddf8adc65c2b577f9db82893456449f5b691",
+        "version": "b83184f5951fe3939622024de06e6d76df939db9766dfa3adcd5fb2387fc4c2c",
+        "signature": "63adcdeb98bfec7e02335140e3072af9a7aa99269b59164f8cc0674cc8bd7552",
         "affectsGlobalScope": false
       },
       "../src/profissoes/dtos/update-profissoes.dto.ts": {
-        "version": "59cb2a3a3409d8fccdd97fc6219de6c1f9441185cf82669c30a0094c31db3d24",
-        "signature": "a60392c6d3696a22a8562beed0d6be09d5c0c805eae476b089a1ff1ec036f9db",
+        "version": "d5082dc70cc35882ef97b2ff9e219ffe9f9eb784e689acd953bf60fa5969461c",
+        "signature": "5bdad9026cd48880324a35ded8614aa1e057685100413ea46d2e51c90a4297e8",
         "affectsGlobalScope": false
       },
       "../src/profissoes/interfaces/profissoes.interface.ts": {
-        "version": "aabe44b0b106abaef8aef3d91f04f9486f931c4ab2fa96960d51d775f2a8cbef",
-        "signature": "624637348d608535b8c1e681e1444012bdc6aa5681d555a7cf4485f5ddfeb6e5",
+        "version": "96a667924194645caa14c85b44a118fa07ff38087984dcc96543d1f17fe2187b",
+        "signature": "adb6fb6173a1b321a3927c8f7236df4463f9c2d7c9d2f6b6256042748d7c95a6",
         "affectsGlobalScope": false
       },
       "../src/profissoes/profissoes.service.ts": {
@@ -1962,7 +1962,7 @@
         "affectsGlobalScope": false
       },
       "../src/profissoes/interfaces/profissoes.schema.ts": {
-        "version": "a761812ec16b8a10088ced254c724388a8d7a910f43defc59939dceae79f9393",
+        "version": "2476df1ce7827f907ef90270189e094980106819169754f0fe81b644e508a9be",
         "signature": "963cccdc16662d4a9edb98825dcda6e8d5551e17d754777086aeae213c649da2",
         "affectsGlobalScope": false
       },
@@ -2076,14 +2076,14 @@
         "signature": "ff46ff240a1ee9aa15e5bc20a3f0218e75570d13db8136421cd972f3a1777a6c",
         "affectsGlobalScope": false
       },
-      "../src/status/dtos/create-status.dto.ts": {
-        "version": "31ea2851175403baf30846ecc1ad39d52bc2683c1c8152ddc08132e8e2ba8782",
-        "signature": "6e4b75a4a371c3935ae7ed945da9487453a528d51d380fe66514bf3bb8160b6c",
+      "../src/origens/dtos/create-origens.dto.ts": {
+        "version": "b4606022a119508370876b24615f3a9ee3730ee5a541c4d3a6f14e077051eb2f",
+        "signature": "788551d321d153716f9ae27492c315d5efd0fe3a63e07bae9c0673edb57de3ab",
         "affectsGlobalScope": false
       },
-      "../src/status/dtos/update-status.dto.ts": {
-        "version": "4e33cf53ec3ec1b7301530262e99381537f8420c4968b48f3e0d316857af4a88",
-        "signature": "a9d1c6ed1aa412af84b080aee5bcfc87b4655437bbb7d8f18e6610257966ae38",
+      "../src/origens/dtos/update-origens.dto.ts": {
+        "version": "e985dadb452b0e16a20f8919cec2809c564c5518107f8ca71571baafb1bfee22",
+        "signature": "07c85c29b8e7c867a02329f93ddbfce36f7869bf837c19c0d0d82240b2a09126",
         "affectsGlobalScope": false
       },
       "../node_modules/typeorm/schema-builder/options/TableColumnOptions.d.ts": {
@@ -4396,19 +4396,74 @@
         "signature": "1d5f30cbd06ffa2aab22346b087e140f069851c17b91189be8d1e168d53f9f93",
         "affectsGlobalScope": false
       },
+      "../src/status/interfaces/status.entity.ts": {
+        "version": "690e107dd12ffadfe26efa90580a24f866fb3ee2cc59648b46c75ff36059d025",
+        "signature": "71eb078f7e750871bf3aad80886f737eaba89a068cbbd4edcb5c94dc3f5b9613",
+        "affectsGlobalScope": false
+      },
       "../src/tipos/interfaces/tipos.entity.ts": {
         "version": "7f16316d5efa2680f6be0ae5f8ae6787aefcdd22b6b38c1a9856df535fdfe538",
         "signature": "5ef40e8dd959ff9be748576532eb5f08a463fda0f0f50fb0aaaaa5abbedc402f",
         "affectsGlobalScope": false
       },
-      "../src/indicacoes/interfaces/indicacoes.entity.ts": {
-        "version": "3d652b8f61c1380c5b7d97c8606705374fc599bab16ac8681015323b2073ed49",
-        "signature": "8bc81c145b0c9c194fb4a7beea744cdad652f382f239ba531160bf20a5409276",
+      "../src/profissoes/interfaces/profissoes.entity.ts": {
+        "version": "872289a33c9ab747c0d699c8d64dac67e95cc953be8e0f6f776367a9213feed4",
+        "signature": "ee3ae258c3e836e83eef3844e78d0498159ebf667a89243078bbf2fb2f347926",
         "affectsGlobalScope": false
       },
-      "../src/status/interfaces/status.entity.ts": {
-        "version": "690e107dd12ffadfe26efa90580a24f866fb3ee2cc59648b46c75ff36059d025",
-        "signature": "71eb078f7e750871bf3aad80886f737eaba89a068cbbd4edcb5c94dc3f5b9613",
+      "../src/users/interfaces/user.entity.ts": {
+        "version": "6465e6cd2b573437a1ea72a8df13fbcd448aa259a5010d85998b409b83815816",
+        "signature": "199afdf4ac7947c1fe6d48f623b7718518082b3d4402994003d4314c49bd6f55",
+        "affectsGlobalScope": false
+      },
+      "../src/encaminhamentos/interfaces/encaminhamentos.entity.ts": {
+        "version": "1b941406caa2c6a0b483dad395df5fa864c8f1f072caa8c98fcb61622c1ba7ac",
+        "signature": "6c7d36c935d364b45e04c96c6bf2bbdf2386587194ce257ddd0bb9161d7564f7",
+        "affectsGlobalScope": false
+      },
+      "../src/indicacoes/interfaces/indicacoes.entity.ts": {
+        "version": "972d44e7bf6c77a64eced741941f0cf371b541bcac6daa3511e0f5140f4efe88",
+        "signature": "e26ff353c89e5596b95e11bf960fe73ec98cc72c38dfa392150903d8391fdfc1",
+        "affectsGlobalScope": false
+      },
+      "../src/origens/interfaces/origens.entity.ts": {
+        "version": "28ec5813aaa57ca66371bb314a63b0cde608533bce00c20a58992a04c40993f0",
+        "signature": "fcfe3a5c817c9b399194bb7433c70f67d54e3e469f2921a34ca16f4a0428f8b9",
+        "affectsGlobalScope": false
+      },
+      "../src/origens/origens.service.ts": {
+        "version": "2da226a84c50e1b3edc25c14793f4ddae482c0310100ee9a209eb86b1c3944ef",
+        "signature": "427c8ced5c40ac977ee5a490943a337a6b1e5054c2dc3c9bce80d3ebe27d3a08",
+        "affectsGlobalScope": false
+      },
+      "../src/origens/interfaces/origens.interface.ts": {
+        "version": "05e73c9eb3a61635923d2bef1f756a3443d28ac5aa3469590cd6075b57110c79",
+        "signature": "98b2b6fca73e39745a28b4992e5970c640f9434535299370f33bf0aee738fd0f",
+        "affectsGlobalScope": false
+      },
+      "../src/origens/origens.controller.ts": {
+        "version": "451151494344487094b6f5aefec8df7e7d97f54212cbcc31f70c0d39909a12b9",
+        "signature": "6654547607179736eee5d1bf766f85b5cb335abbf59d3a787a0d1868dced974d",
+        "affectsGlobalScope": false
+      },
+      "../src/origens/interfaces/origens.schema.ts": {
+        "version": "629e84adce306b4cbc9d2a5ca1993f563e17a0d08681497c8524efd76ec0c36a",
+        "signature": "8e9c4864b7779d8f3c788faa113c167f30be718ae99bce3732b2e98e63728bcd",
+        "affectsGlobalScope": false
+      },
+      "../src/origens/origens.module.ts": {
+        "version": "31017df2c56e9af41196f678d5383f63be928988339a310ec851f27db7fe7d03",
+        "signature": "d446f93e074ce99b245ec16a66f3af02fd0d97a1ff56ab719522658c7cac44f4",
+        "affectsGlobalScope": false
+      },
+      "../src/status/dtos/create-status.dto.ts": {
+        "version": "31ea2851175403baf30846ecc1ad39d52bc2683c1c8152ddc08132e8e2ba8782",
+        "signature": "6e4b75a4a371c3935ae7ed945da9487453a528d51d380fe66514bf3bb8160b6c",
+        "affectsGlobalScope": false
+      },
+      "../src/status/dtos/update-status.dto.ts": {
+        "version": "4e33cf53ec3ec1b7301530262e99381537f8420c4968b48f3e0d316857af4a88",
+        "signature": "a9d1c6ed1aa412af84b080aee5bcfc87b4655437bbb7d8f18e6610257966ae38",
         "affectsGlobalScope": false
       },
       "../src/status/status.service.ts": {
@@ -4611,14 +4666,39 @@
         "signature": "6da3ff1ef628fcb3d94ff8f74df55c45cb677da6ce2256e2faa340894f5b915a",
         "affectsGlobalScope": false
       },
+      "../node_modules/nestjs-typeorm-paginate/dist/interfaces/index.d.ts": {
+        "version": "a0c869f64c1b0b438bb5e739b37ce46f946af53256898486eac5be9eb82925ae",
+        "signature": "a0c869f64c1b0b438bb5e739b37ce46f946af53256898486eac5be9eb82925ae",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/nestjs-typeorm-paginate/dist/pagination.d.ts": {
+        "version": "110d58d60d51806b15ea730d322c356df30fe90b529b7fe5b0d71e36e602ab05",
+        "signature": "110d58d60d51806b15ea730d322c356df30fe90b529b7fe5b0d71e36e602ab05",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/nestjs-typeorm-paginate/dist/paginate.d.ts": {
+        "version": "0c1979bef3cf48d1a3791f5de9ced8b2fc118bc6441a96b9651bd0eb0bebc471",
+        "signature": "0c1979bef3cf48d1a3791f5de9ced8b2fc118bc6441a96b9651bd0eb0bebc471",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/nestjs-typeorm-paginate/dist/create-pagination.d.ts": {
+        "version": "d7663fbfc60bb6e2be3ccec6ce604fc37b96b9b413a77519462d99070eec99dd",
+        "signature": "d7663fbfc60bb6e2be3ccec6ce604fc37b96b9b413a77519462d99070eec99dd",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/nestjs-typeorm-paginate/dist/index.d.ts": {
+        "version": "29b56f5370b9ede633106f05f192ceb85a32198b83a197d3aa016daf9593fa83",
+        "signature": "29b56f5370b9ede633106f05f192ceb85a32198b83a197d3aa016daf9593fa83",
+        "affectsGlobalScope": false
+      },
       "../src/indicacoes/indicacoes.service.ts": {
-        "version": "afc77cf32186a1962c9f4fe228184ebf93f4be9801786bc8ddb6d470b6637212",
-        "signature": "4f481ab366e88b2eddde4f012a729d5b0ee37fecf3d0336cf8d22c998d2aba81",
+        "version": "c6fd07de2dfc9121ce54a06f9ff19bd313120a3d159842687eabce496f3a39dd",
+        "signature": "04ba9748a0a9cfcddb2dd01af66d832fff444b5919d2afa756b1d736c80e5acc",
         "affectsGlobalScope": false
       },
       "../src/indicacoes/indicacoes.controller.ts": {
-        "version": "3ae86aa4bb51c2e5443c55877398edde4e1f2e2c0d1fc6665ab483b7f8bdba5b",
-        "signature": "ee6b30dcc5f11acf5ae5e3c30224a72f5ecf1986fe750d36b000a62667208144",
+        "version": "95f54caed4f352537fabe94a89a9f28f53694a267b10cbcb063737584d9f78c3",
+        "signature": "899d83982d2482f171d94ec19efb1efd9b805437cd90f64f35975094343686c2",
         "affectsGlobalScope": false
       },
       "../src/indicacoes/indicacoes.module.ts": {
@@ -4627,7 +4707,7 @@
         "affectsGlobalScope": false
       },
       "../src/app.module.ts": {
-        "version": "0008b97b3434809164aa8ef037429511e2969fa6f0b48b8b90a3132646aa11e7",
+        "version": "34255fd9765e872592334bd627f0e32c775b1a63a0cca74f370a6e75dad0eb95",
         "signature": "b82491e2990291580288c5602d4c017238977749d52b17391f0e45d9a29be644",
         "affectsGlobalScope": false
       },
@@ -4814,6 +4894,21 @@
       "../src/main.ts": {
         "version": "8afd165b196bbf11ec8fbb28f3432dce10ac49d31c9c093b308b8c87e920d1ce",
         "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "affectsGlobalScope": false
+      },
+      "../src/encaminhamentos/encaminhamentos.controller.ts": {
+        "version": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": false
+      },
+      "../src/encaminhamentos/encaminhamentos.module.ts": {
+        "version": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": false
+      },
+      "../src/encaminhamentos/encaminhamentos.service.ts": {
+        "version": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "affectsGlobalScope": false
       },
       "../node_modules/@types/anymatch/index.d.ts": {
@@ -6868,6 +6963,24 @@
         "../node_modules/jest-diff/build/cleanupSemantic.d.ts",
         "../node_modules/jest-diff/build/types.d.ts"
       ],
+      "../node_modules/nestjs-typeorm-paginate/dist/create-pagination.d.ts": [
+        "../node_modules/nestjs-typeorm-paginate/dist/interfaces/index.d.ts",
+        "../node_modules/nestjs-typeorm-paginate/dist/pagination.d.ts"
+      ],
+      "../node_modules/nestjs-typeorm-paginate/dist/index.d.ts": [
+        "../node_modules/nestjs-typeorm-paginate/dist/create-pagination.d.ts",
+        "../node_modules/nestjs-typeorm-paginate/dist/interfaces/index.d.ts",
+        "../node_modules/nestjs-typeorm-paginate/dist/paginate.d.ts",
+        "../node_modules/nestjs-typeorm-paginate/dist/pagination.d.ts"
+      ],
+      "../node_modules/nestjs-typeorm-paginate/dist/paginate.d.ts": [
+        "../node_modules/nestjs-typeorm-paginate/dist/interfaces/index.d.ts",
+        "../node_modules/nestjs-typeorm-paginate/dist/pagination.d.ts",
+        "../node_modules/typeorm/index.d.ts"
+      ],
+      "../node_modules/nestjs-typeorm-paginate/dist/pagination.d.ts": [
+        "../node_modules/nestjs-typeorm-paginate/dist/interfaces/index.d.ts"
+      ],
       "../node_modules/pretty-format/build/index.d.ts": [
         "../node_modules/pretty-format/build/types.d.ts"
       ],
@@ -8425,6 +8538,7 @@
         "../src/estados/estados.module.ts",
         "../src/fornecedores/fornecedores.module.ts",
         "../src/indicacoes/indicacoes.module.ts",
+        "../src/origens/origens.module.ts",
         "../src/produtos/produtos.module.ts",
         "../src/profissoes/profissoes.module.ts",
         "../src/status/status.module.ts",
@@ -8618,6 +8732,11 @@
         "../node_modules/@types/mongoose/index.d.ts",
         "../src/clientes/interfaces/clientes.interface.ts"
       ],
+      "../src/encaminhamentos/interfaces/encaminhamentos.entity.ts": [
+        "../node_modules/typeorm/index.d.ts",
+        "../src/tipos/interfaces/tipos.entity.ts",
+        "../src/users/interfaces/user.entity.ts"
+      ],
       "../src/estados/dtos/create-estados.dto.ts": [
         "../node_modules/@nestjs/swagger/index.d.ts"
       ],
@@ -8691,6 +8810,7 @@
       "../src/indicacoes/indicacoes.controller.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
         "../node_modules/@nestjs/common/pipes/parse-int.pipe.d.ts",
+        "../node_modules/nestjs-typeorm-paginate/dist/index.d.ts",
         "../src/indicacoes/indicacoes.service.ts",
         "../src/indicacoes/interfaces/indicacoes.entity.ts"
       ],
@@ -8704,6 +8824,7 @@
       "../src/indicacoes/indicacoes.service.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
         "../node_modules/@nestjs/typeorm/index.d.ts",
+        "../node_modules/nestjs-typeorm-paginate/dist/index.d.ts",
         "../node_modules/typeorm/index.d.ts",
         "../src/indicacoes/interfaces/indicacoes.entity.ts"
       ],
@@ -8711,6 +8832,9 @@
         "../node_modules/@types/node/os.d.ts",
         "../node_modules/class-validator/types/index.d.ts",
         "../node_modules/typeorm/index.d.ts",
+        "../src/encaminhamentos/interfaces/encaminhamentos.entity.ts",
+        "../src/origens/interfaces/origens.entity.ts",
+        "../src/profissoes/interfaces/profissoes.entity.ts",
         "../src/status/interfaces/status.entity.ts",
         "../src/tipos/interfaces/tipos.entity.ts"
       ],
@@ -8719,6 +8843,50 @@
         "../node_modules/@nestjs/swagger/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../src/app.module.ts"
+      ],
+      "../src/origens/dtos/create-origens.dto.ts": [
+        "../node_modules/@nestjs/swagger/index.d.ts"
+      ],
+      "../src/origens/dtos/update-origens.dto.ts": [
+        "../node_modules/@nestjs/swagger/index.d.ts"
+      ],
+      "../src/origens/interfaces/origens.entity.ts": [
+        "../node_modules/class-validator/types/index.d.ts",
+        "../node_modules/typeorm/index.d.ts",
+        "../src/indicacoes/interfaces/indicacoes.entity.ts"
+      ],
+      "../src/origens/interfaces/origens.interface.ts": [
+        "../node_modules/@types/mongoose/index.d.ts"
+      ],
+      "../src/origens/interfaces/origens.schema.ts": [
+        "../node_modules/@types/mongoose/index.d.ts",
+        "../src/origens/interfaces/origens.interface.ts"
+      ],
+      "../src/origens/origens.controller.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../src/origens/dtos/create-origens.dto.ts",
+        "../src/origens/dtos/update-origens.dto.ts",
+        "../src/origens/interfaces/origens.interface.ts",
+        "../src/origens/origens.service.ts"
+      ],
+      "../src/origens/origens.module.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/mongoose/index.d.ts",
+        "../node_modules/@nestjs/typeorm/index.d.ts",
+        "../src/origens/interfaces/origens.entity.ts",
+        "../src/origens/interfaces/origens.schema.ts",
+        "../src/origens/origens.controller.ts",
+        "../src/origens/origens.service.ts"
+      ],
+      "../src/origens/origens.service.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/mongoose/index.d.ts",
+        "../node_modules/@nestjs/typeorm/index.d.ts",
+        "../node_modules/@types/mongoose/index.d.ts",
+        "../node_modules/typeorm/index.d.ts",
+        "../src/origens/dtos/create-origens.dto.ts",
+        "../src/origens/dtos/update-origens.dto.ts",
+        "../src/origens/interfaces/origens.entity.ts"
       ],
       "../src/produtos/dtos/create-produtos.dto.ts": [
         "../node_modules/@nestjs/swagger/index.d.ts"
@@ -8759,6 +8927,11 @@
       ],
       "../src/profissoes/dtos/update-profissoes.dto.ts": [
         "../node_modules/@nestjs/swagger/index.d.ts"
+      ],
+      "../src/profissoes/interfaces/profissoes.entity.ts": [
+        "../node_modules/class-validator/types/index.d.ts",
+        "../node_modules/typeorm/index.d.ts",
+        "../src/indicacoes/interfaces/indicacoes.entity.ts"
       ],
       "../src/profissoes/interfaces/profissoes.interface.ts": [
         "../node_modules/@types/mongoose/index.d.ts"
@@ -8878,6 +9051,11 @@
       ],
       "../src/users/dtos/update-user.dto.ts": [
         "../node_modules/@nestjs/swagger/index.d.ts"
+      ],
+      "../src/users/interfaces/user.entity.ts": [
+        "../node_modules/typeorm/index.d.ts",
+        "../src/status/interfaces/status.entity.ts",
+        "../src/tipos/interfaces/tipos.entity.ts"
       ],
       "../src/users/interfaces/user.interface.ts": [
         "../node_modules/@types/mongoose/index.d.ts"
@@ -10672,6 +10850,24 @@
         "../node_modules/jest-diff/build/cleanupSemantic.d.ts",
         "../node_modules/jest-diff/build/types.d.ts"
       ],
+      "../node_modules/nestjs-typeorm-paginate/dist/create-pagination.d.ts": [
+        "../node_modules/nestjs-typeorm-paginate/dist/interfaces/index.d.ts",
+        "../node_modules/nestjs-typeorm-paginate/dist/pagination.d.ts"
+      ],
+      "../node_modules/nestjs-typeorm-paginate/dist/index.d.ts": [
+        "../node_modules/nestjs-typeorm-paginate/dist/create-pagination.d.ts",
+        "../node_modules/nestjs-typeorm-paginate/dist/interfaces/index.d.ts",
+        "../node_modules/nestjs-typeorm-paginate/dist/paginate.d.ts",
+        "../node_modules/nestjs-typeorm-paginate/dist/pagination.d.ts"
+      ],
+      "../node_modules/nestjs-typeorm-paginate/dist/paginate.d.ts": [
+        "../node_modules/nestjs-typeorm-paginate/dist/interfaces/index.d.ts",
+        "../node_modules/nestjs-typeorm-paginate/dist/pagination.d.ts",
+        "../node_modules/typeorm/index.d.ts"
+      ],
+      "../node_modules/nestjs-typeorm-paginate/dist/pagination.d.ts": [
+        "../node_modules/nestjs-typeorm-paginate/dist/interfaces/index.d.ts"
+      ],
       "../node_modules/pretty-format/build/index.d.ts": [
         "../node_modules/pretty-format/build/types.d.ts"
       ],
@@ -12304,6 +12500,11 @@
       "../src/clientes/interfaces/clientes.schema.ts": [
         "../node_modules/@types/mongoose/index.d.ts"
       ],
+      "../src/encaminhamentos/interfaces/encaminhamentos.entity.ts": [
+        "../node_modules/typeorm/index.d.ts",
+        "../src/tipos/interfaces/tipos.entity.ts",
+        "../src/users/interfaces/user.entity.ts"
+      ],
       "../src/estados/estados.controller.ts": [
         "../src/estados/dtos/create-estados.dto.ts",
         "../src/estados/dtos/update-estados.dto.ts",
@@ -12341,16 +12542,39 @@
         "../node_modules/@types/mongoose/index.d.ts"
       ],
       "../src/indicacoes/indicacoes.controller.ts": [
-        "../src/indicacoes/indicacoes.service.ts"
+        "../node_modules/nestjs-typeorm-paginate/dist/index.d.ts",
+        "../src/indicacoes/indicacoes.service.ts",
+        "../src/indicacoes/interfaces/indicacoes.entity.ts"
       ],
       "../src/indicacoes/indicacoes.service.ts": [
+        "../node_modules/nestjs-typeorm-paginate/dist/index.d.ts",
         "../node_modules/typeorm/index.d.ts",
         "../src/indicacoes/interfaces/indicacoes.entity.ts"
       ],
       "../src/indicacoes/interfaces/indicacoes.entity.ts": [
         "../node_modules/typeorm/index.d.ts",
+        "../src/origens/interfaces/origens.entity.ts",
+        "../src/profissoes/interfaces/profissoes.entity.ts",
         "../src/status/interfaces/status.entity.ts",
         "../src/tipos/interfaces/tipos.entity.ts"
+      ],
+      "../src/origens/interfaces/origens.entity.ts": [
+        "../node_modules/typeorm/index.d.ts",
+        "../src/indicacoes/interfaces/indicacoes.entity.ts"
+      ],
+      "../src/origens/interfaces/origens.interface.ts": [
+        "../node_modules/@types/mongoose/index.d.ts"
+      ],
+      "../src/origens/interfaces/origens.schema.ts": [
+        "../node_modules/@types/mongoose/index.d.ts"
+      ],
+      "../src/origens/origens.controller.ts": [
+        "../src/origens/interfaces/origens.entity.ts",
+        "../src/origens/origens.service.ts"
+      ],
+      "../src/origens/origens.service.ts": [
+        "../node_modules/typeorm/index.d.ts",
+        "../src/origens/interfaces/origens.entity.ts"
       ],
       "../src/produtos/interfaces/produtos.interface.ts": [
         "../node_modules/@types/mongoose/index.d.ts"
@@ -12369,6 +12593,10 @@
         "../src/produtos/dtos/create-produtos.dto.ts",
         "../src/produtos/dtos/update-produtos.dto.ts",
         "../src/produtos/interfaces/produtos.interface.ts"
+      ],
+      "../src/profissoes/interfaces/profissoes.entity.ts": [
+        "../node_modules/typeorm/index.d.ts",
+        "../src/indicacoes/interfaces/indicacoes.entity.ts"
       ],
       "../src/profissoes/interfaces/profissoes.interface.ts": [
         "../node_modules/@types/mongoose/index.d.ts"
@@ -12427,6 +12655,11 @@
         "../src/tipos/dtos/create-tipos.dto.ts",
         "../src/tipos/dtos/update-tipos.dto.ts",
         "../src/tipos/interfaces/tipos.interface.ts"
+      ],
+      "../src/users/interfaces/user.entity.ts": [
+        "../node_modules/typeorm/index.d.ts",
+        "../src/status/interfaces/status.entity.ts",
+        "../src/tipos/interfaces/tipos.entity.ts"
       ],
       "../src/users/interfaces/user.interface.ts": [
         "../node_modules/@types/mongoose/index.d.ts"
@@ -12942,6 +13175,11 @@
       "../node_modules/jest-diff/build/index.d.ts",
       "../node_modules/jest-diff/build/printDiffs.d.ts",
       "../node_modules/jest-diff/build/types.d.ts",
+      "../node_modules/nestjs-typeorm-paginate/dist/create-pagination.d.ts",
+      "../node_modules/nestjs-typeorm-paginate/dist/index.d.ts",
+      "../node_modules/nestjs-typeorm-paginate/dist/interfaces/index.d.ts",
+      "../node_modules/nestjs-typeorm-paginate/dist/paginate.d.ts",
+      "../node_modules/nestjs-typeorm-paginate/dist/pagination.d.ts",
       "../node_modules/pretty-format/build/index.d.ts",
       "../node_modules/pretty-format/build/types.d.ts",
       "../node_modules/reflect-metadata/index.d.ts",
@@ -13411,6 +13649,10 @@
       "../src/clientes/interfaces/clientes.interface.ts",
       "../src/clientes/interfaces/clientes.schema.ts",
       "../src/common/environment.ts",
+      "../src/encaminhamentos/encaminhamentos.controller.ts",
+      "../src/encaminhamentos/encaminhamentos.module.ts",
+      "../src/encaminhamentos/encaminhamentos.service.ts",
+      "../src/encaminhamentos/interfaces/encaminhamentos.entity.ts",
       "../src/estados/dtos/create-estados.dto.ts",
       "../src/estados/dtos/update-estados.dto.ts",
       "../src/estados/estados.controller.ts",
@@ -13430,6 +13672,14 @@
       "../src/indicacoes/indicacoes.service.ts",
       "../src/indicacoes/interfaces/indicacoes.entity.ts",
       "../src/main.ts",
+      "../src/origens/dtos/create-origens.dto.ts",
+      "../src/origens/dtos/update-origens.dto.ts",
+      "../src/origens/interfaces/origens.entity.ts",
+      "../src/origens/interfaces/origens.interface.ts",
+      "../src/origens/interfaces/origens.schema.ts",
+      "../src/origens/origens.controller.ts",
+      "../src/origens/origens.module.ts",
+      "../src/origens/origens.service.ts",
       "../src/produtos/dtos/create-produtos.dto.ts",
       "../src/produtos/dtos/update-produtos.dto.ts",
       "../src/produtos/interfaces/produtos.interface.ts",
@@ -13439,6 +13689,7 @@
       "../src/produtos/produtos.service.ts",
       "../src/profissoes/dtos/create-profissoes.dto.ts",
       "../src/profissoes/dtos/update-profissoes.dto.ts",
+      "../src/profissoes/interfaces/profissoes.entity.ts",
       "../src/profissoes/interfaces/profissoes.interface.ts",
       "../src/profissoes/interfaces/profissoes.schema.ts",
       "../src/profissoes/profissoes.controller.ts",
@@ -13462,6 +13713,7 @@
       "../src/tipos/tipos.service.ts",
       "../src/users/dtos/create-user.dto.ts",
       "../src/users/dtos/update-user.dto.ts",
+      "../src/users/interfaces/user.entity.ts",
       "../src/users/interfaces/user.interface.ts",
       "../src/users/interfaces/user.schema.ts",
       "../src/users/users.controller.ts",

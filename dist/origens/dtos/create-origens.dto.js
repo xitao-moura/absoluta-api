@@ -9,17 +9,13 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.CreateOrigemDto = void 0;
+exports.CreateOrigensDto = void 0;
 const swagger_1 = require("@nestjs/swagger");
-class CreateOrigemDto {
+class CreateOrigensDto {
 }
 __decorate([
     swagger_1.ApiProperty(),
     __metadata("design:type", String)
-], CreateOrigemDto.prototype, "nome", void 0);
-__decorate([
-    swagger_1.ApiProperty(),
-    __metadata("design:type", Number)
-], CreateOrigemDto.prototype, "status", void 0);
-exports.CreateOrigemDto = CreateOrigemDto;
+], CreateOrigensDto.prototype, "nome", void 0);
+exports.CreateOrigensDto = CreateOrigensDto;
 //# sourceMappingURL=create-origens.dto.js.map

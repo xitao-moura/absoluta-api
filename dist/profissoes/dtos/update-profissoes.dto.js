@@ -20,6 +20,6 @@ __decorate([
 __decorate([
     swagger_1.ApiProperty(),
     __metadata("design:type", String)
-], UpdateProfissaoDto.prototype, "status", void 0);
+], UpdateProfissaoDto.prototype, "status_id", void 0);
 exports.UpdateProfissaoDto = UpdateProfissaoDto;
 //# sourceMappingURL=update-profissoes.dto.js.map

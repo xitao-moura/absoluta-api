@@ -17,15 +17,24 @@ const common_1 = require("@nestjs/common");
 const typeorm_1 = require("@nestjs/typeorm");
 const typeorm_2 = require("typeorm");
 const indicacoes_entity_1 = require("./interfaces/indicacoes.entity");
+const nestjs_typeorm_paginate_1 = require("nestjs-typeorm-paginate");
 let IndicacoesService = class IndicacoesService {
     constructor(indicacaoRepository) {
         this.indicacaoRepository = indicacaoRepository;
     }
     async getIndicacoes() {
-        return await this.indicacaoRepository.find({
-            relations: ['status', 'tipo'],
-            take: 1000
-        });
+        return await this.indicacaoRepository.find({});
+    }
+    async paginate(options) {
+        console.log(options);
+        const queryBuilder = this.indicacaoRepository.createQueryBuilder('i')
+            .leftJoinAndSelect('i.status', 'status')
+            .leftJoinAndSelect('i.tipo', 'tipo')
+            .leftJoinAndSelect('i.origem', 'origem')
+            .leftJoinAndSelect('i.profissao', 'profissao')
+            .where('i.status_id <> 10');
+        queryBuilder.orderBy('i.created', 'DESC');
+        return nestjs_typeorm_paginate_1.paginate(queryBuilder, options);
     }
 };
 IndicacoesService = __decorate([

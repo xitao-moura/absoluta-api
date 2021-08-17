@@ -12,12 +12,15 @@ const mongoose_1 = require("@nestjs/mongoose");
 const origens_controller_1 = require("./origens.controller");
 const origens_service_1 = require("./origens.service");
 const origens_schema_1 = require("./interfaces/origens.schema");
+const typeorm_1 = require("@nestjs/typeorm");
+const origens_entity_1 = require("./interfaces/origens.entity");
 let OrigensModule = class OrigensModule {
 };
 OrigensModule = __decorate([
     common_1.Module({
         imports: [
-            mongoose_1.MongooseModule.forFeature([{ name: 'Origem', schema: origens_schema_1.OrigemSchema }])
+            mongoose_1.MongooseModule.forFeature([{ name: 'Origens', schema: origens_schema_1.OrigensSchema }]),
+            typeorm_1.TypeOrmModule.forFeature([origens_entity_1.Origens])
         ],
         exports: [origens_service_1.OrigensService],
         controllers: [origens_controller_1.OrigensController],
