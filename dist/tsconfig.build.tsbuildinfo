@@ -1762,7 +1762,7 @@
         "affectsGlobalScope": false
       },
       "../src/common/environment.ts": {
-        "version": "b15153b42afe010f10649316ee6c36eaa9d130fd29cb958120c437a4a01b3fbf",
+        "version": "6ab0208aef29e6785062e08fce318669e48ccccf1a9673db359f121b9a8902b9",
         "signature": "48675edfc0c4050c99ec0a338a4075d5b086b8ddf59d86628e8912b69cda1f0c",
         "affectsGlobalScope": false
       },
@@ -4421,9 +4421,29 @@
         "signature": "6c7d36c935d364b45e04c96c6bf2bbdf2386587194ce257ddd0bb9161d7564f7",
         "affectsGlobalScope": false
       },
+      "../src/enderecos/interfaces/enderecos.entity.ts": {
+        "version": "2ab8916d366b946f6cfba38dc79a6d4312a7ff621db3abe6b8a138a68857d4ea",
+        "signature": "a3a2c8581dda519314562cab3a1ae3196cf936a4dad508722223b3dec5e7381e",
+        "affectsGlobalScope": false
+      },
+      "../src/enderecos/interfaces/enderecos.interface.ts": {
+        "version": "a0e6c5ba9bd78c1fb32f2bbb666f5d712bc6aa322e63225a4b52ac305913eea0",
+        "signature": "25aeea480b790d35e805bc38964cee7bd04c0ef3a793246b517d565d33e70951",
+        "affectsGlobalScope": false
+      },
+      "../src/vendas/interfaces/vendas.entity.ts": {
+        "version": "45b470502cf34539f1794a63a27a70098275f572523b7b2c8e9dc38f5beb9549",
+        "signature": "b34bc803565b36ea58c079c07f1ad934d903a1c878379c89d6d5e7771392301f",
+        "affectsGlobalScope": false
+      },
+      "../src/vendas/interfaces/vendas.interface.ts": {
+        "version": "39a73d525605840e7c9cc0213dd67e933f4d00461641effcbd71752365022344",
+        "signature": "0234908b2ecdddce61f43888ffbb267d471e0d096413d0b2a44fa4f41c9d2a96",
+        "affectsGlobalScope": false
+      },
       "../src/indicacoes/interfaces/indicacoes.entity.ts": {
-        "version": "972d44e7bf6c77a64eced741941f0cf371b541bcac6daa3511e0f5140f4efe88",
-        "signature": "e26ff353c89e5596b95e11bf960fe73ec98cc72c38dfa392150903d8391fdfc1",
+        "version": "cdd2f19a68ba9a830bafed6bfb82f3651eba3229f348c3e1601d3c852546c420",
+        "signature": "ad6748e2d58c4841e22b0d0aa5af38d7712719000645b2f32128a738f43c2b19",
         "affectsGlobalScope": false
       },
       "../src/origens/interfaces/origens.entity.ts": {
@@ -4692,13 +4712,13 @@
         "affectsGlobalScope": false
       },
       "../src/indicacoes/indicacoes.service.ts": {
-        "version": "c6fd07de2dfc9121ce54a06f9ff19bd313120a3d159842687eabce496f3a39dd",
-        "signature": "04ba9748a0a9cfcddb2dd01af66d832fff444b5919d2afa756b1d736c80e5acc",
+        "version": "8391aa34e9743eedebe930f3927285b8472808a7d99da905eca330c3b7b4efd0",
+        "signature": "4d78004f3c053a499f57d17a272457b59cb94bdebf59c2c2f3283f36c46fea72",
         "affectsGlobalScope": false
       },
       "../src/indicacoes/indicacoes.controller.ts": {
-        "version": "95f54caed4f352537fabe94a89a9f28f53694a267b10cbcb063737584d9f78c3",
-        "signature": "899d83982d2482f171d94ec19efb1efd9b805437cd90f64f35975094343686c2",
+        "version": "0656707abc4909d712379a3a4cf6581aa7ebd52fe45e2de702b5a7383fb5699d",
+        "signature": "388c9d05df6ba3ef67e1a4f3b3ae1309b341d8b57cb9c4efce3a3cba16b46c9c",
         "affectsGlobalScope": false
       },
       "../src/indicacoes/indicacoes.module.ts": {
@@ -4892,7 +4912,7 @@
         "affectsGlobalScope": false
       },
       "../src/main.ts": {
-        "version": "6866d5f07ace2c8cb1d5a144e0904cdbadc3e74126a541f8de11419e3ca963d0",
+        "version": "148f4922f700b32181f06581e4be4550da5938331497be0f1f255f8a64cad74a",
         "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
         "affectsGlobalScope": false
       },
@@ -4907,6 +4927,36 @@
         "affectsGlobalScope": false
       },
       "../src/encaminhamentos/encaminhamentos.service.ts": {
+        "version": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": false
+      },
+      "../src/enderecos/dtos/create-enderecos.dto.ts": {
+        "version": "07a06ce7b47b2eb609dbe312fa357f8068a401170eda16b1aaf3d0ea6af8274a",
+        "signature": "c888ae1844f41ebb6b4e8662eed7216fb7d8c593a8d488a20278e1227a4f0b33",
+        "affectsGlobalScope": false
+      },
+      "../src/enderecos/dtos/update-enderecos.dto.ts": {
+        "version": "782a25c46223f45a81d12093c95fbfa7196f46ae257817abcfc6af7b67a24a4c",
+        "signature": "237fb4dfb57eef055206823b7ed98009db7f4f5dc45cac572177aab9434ebb08",
+        "affectsGlobalScope": false
+      },
+      "../src/enderecos/interfaces/enderecos.schema.ts": {
+        "version": "99b2018547f8b5fb07f4324b571995901328d5cf1853bc35eeef67dd9306dbce",
+        "signature": "6cc8bdf64657be47f0e7e71f1cbdb08c24946cbe38a0af2bb5aef4ca27f8b98e",
+        "affectsGlobalScope": false
+      },
+      "../src/vendas/dtos/create-vendas.dto.ts": {
+        "version": "e8eaabe0e1eef9bd408ab7f53bbce9d41ba13d4054c0518086a98a93e3c4d1f2",
+        "signature": "5e3c1d816f9f4dd6e11f3c3f9f22a69607e249dfead8afa1d4c349f3b0168c6e",
+        "affectsGlobalScope": false
+      },
+      "../src/vendas/dtos/update-vendas.dto.ts": {
+        "version": "b91d5c802b161f496488ebeade3eb13c52a73fd41c236aef91678eeaf2369dcd",
+        "signature": "70d8cacfa2218c5658bb494e99575b71c97e700853fd2231613d5353e6c0b86a",
+        "affectsGlobalScope": false
+      },
+      "../src/vendas/interfaces/vendas.schema.ts": {
         "version": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "affectsGlobalScope": false
@@ -8737,6 +8787,24 @@
         "../src/tipos/interfaces/tipos.entity.ts",
         "../src/users/interfaces/user.entity.ts"
       ],
+      "../src/enderecos/dtos/create-enderecos.dto.ts": [
+        "../node_modules/@nestjs/swagger/index.d.ts"
+      ],
+      "../src/enderecos/dtos/update-enderecos.dto.ts": [
+        "../node_modules/@nestjs/swagger/index.d.ts"
+      ],
+      "../src/enderecos/interfaces/enderecos.entity.ts": [
+        "../node_modules/class-validator/types/index.d.ts",
+        "../node_modules/typeorm/index.d.ts",
+        "../src/indicacoes/interfaces/indicacoes.entity.ts"
+      ],
+      "../src/enderecos/interfaces/enderecos.interface.ts": [
+        "../node_modules/@types/mongoose/index.d.ts"
+      ],
+      "../src/enderecos/interfaces/enderecos.schema.ts": [
+        "../node_modules/@types/mongoose/index.d.ts",
+        "../src/enderecos/interfaces/enderecos.interface.ts"
+      ],
       "../src/estados/dtos/create-estados.dto.ts": [
         "../node_modules/@nestjs/swagger/index.d.ts"
       ],
@@ -8833,10 +8901,14 @@
         "../node_modules/class-validator/types/index.d.ts",
         "../node_modules/typeorm/index.d.ts",
         "../src/encaminhamentos/interfaces/encaminhamentos.entity.ts",
+        "../src/enderecos/interfaces/enderecos.entity.ts",
+        "../src/enderecos/interfaces/enderecos.interface.ts",
         "../src/origens/interfaces/origens.entity.ts",
         "../src/profissoes/interfaces/profissoes.entity.ts",
         "../src/status/interfaces/status.entity.ts",
-        "../src/tipos/interfaces/tipos.entity.ts"
+        "../src/tipos/interfaces/tipos.entity.ts",
+        "../src/vendas/interfaces/vendas.entity.ts",
+        "../src/vendas/interfaces/vendas.interface.ts"
       ],
       "../src/main.ts": [
         "../node_modules/@nestjs/core/index.d.ts",
@@ -9091,6 +9163,20 @@
         "../src/users/dtos/create-user.dto.ts",
         "../src/users/dtos/update-user.dto.ts",
         "../src/users/interfaces/user.interface.ts"
+      ],
+      "../src/vendas/dtos/create-vendas.dto.ts": [
+        "../node_modules/@nestjs/swagger/index.d.ts"
+      ],
+      "../src/vendas/dtos/update-vendas.dto.ts": [
+        "../node_modules/@nestjs/swagger/index.d.ts"
+      ],
+      "../src/vendas/interfaces/vendas.entity.ts": [
+        "../node_modules/class-validator/types/index.d.ts",
+        "../node_modules/typeorm/index.d.ts",
+        "../src/indicacoes/interfaces/indicacoes.entity.ts"
+      ],
+      "../src/vendas/interfaces/vendas.interface.ts": [
+        "../node_modules/@types/mongoose/index.d.ts"
       ]
     },
     "exportedModulesMap": {
@@ -12505,6 +12591,16 @@
         "../src/tipos/interfaces/tipos.entity.ts",
         "../src/users/interfaces/user.entity.ts"
       ],
+      "../src/enderecos/interfaces/enderecos.entity.ts": [
+        "../node_modules/typeorm/index.d.ts",
+        "../src/indicacoes/interfaces/indicacoes.entity.ts"
+      ],
+      "../src/enderecos/interfaces/enderecos.interface.ts": [
+        "../node_modules/@types/mongoose/index.d.ts"
+      ],
+      "../src/enderecos/interfaces/enderecos.schema.ts": [
+        "../node_modules/@types/mongoose/index.d.ts"
+      ],
       "../src/estados/estados.controller.ts": [
         "../src/estados/dtos/create-estados.dto.ts",
         "../src/estados/dtos/update-estados.dto.ts",
@@ -12553,10 +12649,12 @@
       ],
       "../src/indicacoes/interfaces/indicacoes.entity.ts": [
         "../node_modules/typeorm/index.d.ts",
+        "../src/enderecos/interfaces/enderecos.interface.ts",
         "../src/origens/interfaces/origens.entity.ts",
         "../src/profissoes/interfaces/profissoes.entity.ts",
         "../src/status/interfaces/status.entity.ts",
-        "../src/tipos/interfaces/tipos.entity.ts"
+        "../src/tipos/interfaces/tipos.entity.ts",
+        "../src/vendas/interfaces/vendas.interface.ts"
       ],
       "../src/origens/interfaces/origens.entity.ts": [
         "../node_modules/typeorm/index.d.ts",
@@ -12678,6 +12776,13 @@
         "../src/users/dtos/create-user.dto.ts",
         "../src/users/dtos/update-user.dto.ts",
         "../src/users/interfaces/user.interface.ts"
+      ],
+      "../src/vendas/interfaces/vendas.entity.ts": [
+        "../node_modules/typeorm/index.d.ts",
+        "../src/indicacoes/interfaces/indicacoes.entity.ts"
+      ],
+      "../src/vendas/interfaces/vendas.interface.ts": [
+        "../node_modules/@types/mongoose/index.d.ts"
       ]
     },
     "semanticDiagnosticsPerFile": [
@@ -13653,6 +13758,11 @@
       "../src/encaminhamentos/encaminhamentos.module.ts",
       "../src/encaminhamentos/encaminhamentos.service.ts",
       "../src/encaminhamentos/interfaces/encaminhamentos.entity.ts",
+      "../src/enderecos/dtos/create-enderecos.dto.ts",
+      "../src/enderecos/dtos/update-enderecos.dto.ts",
+      "../src/enderecos/interfaces/enderecos.entity.ts",
+      "../src/enderecos/interfaces/enderecos.interface.ts",
+      "../src/enderecos/interfaces/enderecos.schema.ts",
       "../src/estados/dtos/create-estados.dto.ts",
       "../src/estados/dtos/update-estados.dto.ts",
       "../src/estados/estados.controller.ts",
@@ -13718,7 +13828,12 @@
       "../src/users/interfaces/user.schema.ts",
       "../src/users/users.controller.ts",
       "../src/users/users.module.ts",
-      "../src/users/users.service.ts"
+      "../src/users/users.service.ts",
+      "../src/vendas/dtos/create-vendas.dto.ts",
+      "../src/vendas/dtos/update-vendas.dto.ts",
+      "../src/vendas/interfaces/vendas.entity.ts",
+      "../src/vendas/interfaces/vendas.interface.ts",
+      "../src/vendas/interfaces/vendas.schema.ts"
     ]
   },
   "version": "4.1.3"

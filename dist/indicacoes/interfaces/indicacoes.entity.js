@@ -16,6 +16,10 @@ const tipos_entity_1 = require("../../tipos/interfaces/tipos.entity");
 const origens_entity_1 = require("../../origens/interfaces/origens.entity");
 const profissoes_entity_1 = require("../../profissoes/interfaces/profissoes.entity");
 const encaminhamentos_entity_1 = require("../../encaminhamentos/interfaces/encaminhamentos.entity");
+const enderecos_entity_1 = require("../../enderecos/interfaces/enderecos.entity");
+const enderecos_interface_1 = require("../../enderecos/interfaces/enderecos.interface");
+const vendas_entity_1 = require("../../vendas/interfaces/vendas.entity");
+const vendas_interface_1 = require("../../vendas/interfaces/vendas.interface");
 let Indicacao = class Indicacao extends typeorm_1.BaseEntity {
 };
 __decorate([
@@ -503,6 +507,14 @@ __decorate([
     typeorm_1.JoinColumn({ name: 'profissao_id', referencedColumnName: 'id' }),
     __metadata("design:type", profissoes_entity_1.Profissoes)
 ], Indicacao.prototype, "profissao", void 0);
+__decorate([
+    typeorm_1.OneToOne(type => enderecos_entity_1.Enderecos, endereco => endereco.indicacao),
+    __metadata("design:type", Object)
+], Indicacao.prototype, "endereco", void 0);
+__decorate([
+    typeorm_1.OneToOne(type => vendas_entity_1.Vendas, venda => venda.indicacao),
+    __metadata("design:type", Object)
+], Indicacao.prototype, "venda", void 0);
 Indicacao = __decorate([
     typeorm_1.Entity('indicacoes')
 ], Indicacao);

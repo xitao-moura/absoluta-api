@@ -3,6 +3,8 @@ import { Status } from 'src/status/interfaces/status.entity';
 import { Tipos } from 'src/tipos/interfaces/tipos.entity';
 import { Origens } from 'src/origens/interfaces/origens.entity';
 import { Profissoes } from 'src/profissoes/interfaces/profissoes.entity';
+import { Endereco } from 'src/enderecos/interfaces/enderecos.interface';
+import { Venda } from 'src/vendas/interfaces/vendas.interface';
 export declare class Indicacao extends BaseEntity {
     id: number;
     status_id: number;
@@ -78,4 +80,6 @@ export declare class Indicacao extends BaseEntity {
     tipo: Tipos;
     origem: Origens;
     profissao: Profissoes;
+    endereco: Endereco;
+    venda: Venda;
 }

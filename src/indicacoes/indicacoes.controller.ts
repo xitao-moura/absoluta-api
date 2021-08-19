@@ -30,5 +30,10 @@ export class IndicacoesController {
       route: '/',
     });
   }
+
+  @Get(':id')
+  getIndicacao(@Param('id') id){
+    return  this.indicacoesService.getIndicacao(id)
+  }
 }
 

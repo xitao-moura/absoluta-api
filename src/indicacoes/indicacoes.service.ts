@@ -24,14 +24,28 @@ export class IndicacoesService {
 
   async paginate(options: IPaginationOptions): Promise<Pagination<Indicacao>> {
     console.log(options)
-    const queryBuilder = this.indicacaoRepository.createQueryBuilder('i')
-    .leftJoinAndSelect('i.status', 'status')
-    .leftJoinAndSelect('i.tipo', 'tipo')
-    .leftJoinAndSelect('i.origem', 'origem')
-    .leftJoinAndSelect('i.profissao', 'profissao')
-    .where('i.status_id <> 10')
+    const queryBuilder = this.indicacaoRepository
+      .createQueryBuilder('i')
+      .leftJoinAndSelect('i.status', 'status')
+      .leftJoinAndSelect('i.tipo', 'tipo')
+      .leftJoinAndSelect('i.origem', 'origem')
+      .leftJoinAndSelect('i.profissao', 'profissao')
+      .where('i.status_id <> 10')
     queryBuilder.orderBy('i.created', 'DESC')
 
     return paginate<Indicacao>(queryBuilder, options);
+  }
+
+  async getIndicacao(id): Promise<any> {
+    return await this.indicacaoRepository
+      .createQueryBuilder("i")
+      .leftJoinAndSelect('i.status', 'status')
+      .leftJoinAndSelect('i.tipo', 'tipo')
+      .leftJoinAndSelect('i.origem', 'origem')
+      .leftJoinAndSelect('i.profissao', 'profissao')
+      .leftJoinAndSelect('i.endereco', 'endereco')
+      .leftJoinAndSelect('i.venda', 'venda')
+      .where(`i.id = ${id}`)
+      .getOne();
   }
 }

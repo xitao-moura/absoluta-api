@@ -1,4 +1,4 @@
-import { BaseEntity, Column, Entity, JoinColumn, JoinTable, ManyToOne, OneToMany, PrimaryGeneratedColumn } from 'typeorm';
+import { BaseEntity, Column, Entity, JoinColumn, JoinTable, ManyToOne, OneToMany, OneToOne, PrimaryGeneratedColumn } from 'typeorm';
 import { IsString, Max, MaxLength, Min, MinLength } from 'class-validator';
 import { type } from 'os';
 import { Status } from 'src/status/interfaces/status.entity';
@@ -6,6 +6,10 @@ import { Tipos } from 'src/tipos/interfaces/tipos.entity';
 import { Origens } from 'src/origens/interfaces/origens.entity';
 import { Profissoes } from 'src/profissoes/interfaces/profissoes.entity';
 import { Encaminhamento } from 'src/encaminhamentos/interfaces/encaminhamentos.entity';
+import { Enderecos } from 'src/enderecos/interfaces/enderecos.entity';
+import { Endereco } from 'src/enderecos/interfaces/enderecos.interface';
+import { Vendas } from 'src/vendas/interfaces/vendas.entity';
+import { Venda } from 'src/vendas/interfaces/vendas.interface';
 //import { Origens } from 'src/origens/interfaces/origens.entity';
 
 @Entity('indicacoes')
@@ -420,4 +424,13 @@ export class Indicacao extends BaseEntity {
     @ManyToOne(type => Profissoes)
     @JoinColumn({name: 'profissao_id', referencedColumnName: 'id'})
     profissao: Profissoes;
+
+    @OneToOne(type => Enderecos, endereco => endereco.indicacao)
+    endereco: Endereco;
+
+    @OneToOne(type => Vendas, venda => venda.indicacao)
+    venda: Venda;
+
+    // @OneToOne(type => Encaminhamento, encaminhamento => encaminhamento.indicacao)
+    // encaminhamento: Encaminhamento;
 }

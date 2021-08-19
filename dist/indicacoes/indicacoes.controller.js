@@ -28,6 +28,9 @@ let IndicacoesController = class IndicacoesController {
             route: '/',
         });
     }
+    getIndicacao(id) {
+        return this.indicacoesService.getIndicacao(id);
+    }
 };
 __decorate([
     common_1.Get(),
@@ -37,6 +40,13 @@ __decorate([
     __metadata("design:paramtypes", [Number, Number]),
     __metadata("design:returntype", void 0)
 ], IndicacoesController.prototype, "findAll", null);
+__decorate([
+    common_1.Get(':id'),
+    __param(0, common_1.Param('id')),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", [Object]),
+    __metadata("design:returntype", void 0)
+], IndicacoesController.prototype, "getIndicacao", null);
 IndicacoesController = __decorate([
     common_1.Controller('v1/indicacoes'),
     __metadata("design:paramtypes", [indicacoes_service_1.IndicacoesService])

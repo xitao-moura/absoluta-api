@@ -27,7 +27,8 @@ let IndicacoesService = class IndicacoesService {
     }
     async paginate(options) {
         console.log(options);
-        const queryBuilder = this.indicacaoRepository.createQueryBuilder('i')
+        const queryBuilder = this.indicacaoRepository
+            .createQueryBuilder('i')
             .leftJoinAndSelect('i.status', 'status')
             .leftJoinAndSelect('i.tipo', 'tipo')
             .leftJoinAndSelect('i.origem', 'origem')
@@ -35,6 +36,18 @@ let IndicacoesService = class IndicacoesService {
             .where('i.status_id <> 10');
         queryBuilder.orderBy('i.created', 'DESC');
         return nestjs_typeorm_paginate_1.paginate(queryBuilder, options);
+    }
+    async getIndicacao(id) {
+        return await this.indicacaoRepository
+            .createQueryBuilder("i")
+            .leftJoinAndSelect('i.status', 'status')
+            .leftJoinAndSelect('i.tipo', 'tipo')
+            .leftJoinAndSelect('i.origem', 'origem')
+            .leftJoinAndSelect('i.profissao', 'profissao')
+            .leftJoinAndSelect('i.endereco', 'endereco')
+            .leftJoinAndSelect('i.venda', 'venda')
+            .where(`i.id = ${id}`)
+            .getOne();
     }
 };
 IndicacoesService = __decorate([
