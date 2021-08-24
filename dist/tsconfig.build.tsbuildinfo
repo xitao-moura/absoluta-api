@@ -1762,7 +1762,7 @@
         "affectsGlobalScope": false
       },
       "../src/common/environment.ts": {
-        "version": "b15153b42afe010f10649316ee6c36eaa9d130fd29cb958120c437a4a01b3fbf",
+        "version": "ee8a9e02467b419c590479b971d4ce8555bd355659f9b9bca3001b6afb8f2aa8",
         "signature": "48675edfc0c4050c99ec0a338a4075d5b086b8ddf59d86628e8912b69cda1f0c",
         "affectsGlobalScope": false
       },
@@ -4692,13 +4692,13 @@
         "affectsGlobalScope": false
       },
       "../src/indicacoes/indicacoes.service.ts": {
-        "version": "c6fd07de2dfc9121ce54a06f9ff19bd313120a3d159842687eabce496f3a39dd",
-        "signature": "04ba9748a0a9cfcddb2dd01af66d832fff444b5919d2afa756b1d736c80e5acc",
+        "version": "c9bcacbabbcb9b8c2b7096d46fa99975b69b8425bc544df6c9921bfcc4edb46c",
+        "signature": "2d85c7ffb409999d3d9e5c662d4df4475d301897066b41ef35d968a85ec3720d",
         "affectsGlobalScope": false
       },
       "../src/indicacoes/indicacoes.controller.ts": {
-        "version": "95f54caed4f352537fabe94a89a9f28f53694a267b10cbcb063737584d9f78c3",
-        "signature": "899d83982d2482f171d94ec19efb1efd9b805437cd90f64f35975094343686c2",
+        "version": "bd0d210f5427a0d2343b2f3b79f880d1677b3a5296e2a57411b152a1da587475",
+        "signature": "85440a4bdd4e92a67d65e250129ec0de60dbf06c340ac63bc626e689907a963d",
         "affectsGlobalScope": false
       },
       "../src/indicacoes/indicacoes.module.ts": {
@@ -8824,6 +8824,7 @@
       "../src/indicacoes/indicacoes.service.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
         "../node_modules/@nestjs/typeorm/index.d.ts",
+        "../node_modules/@types/node/console.d.ts",
         "../node_modules/nestjs-typeorm-paginate/dist/index.d.ts",
         "../node_modules/typeorm/index.d.ts",
         "../src/indicacoes/interfaces/indicacoes.entity.ts"

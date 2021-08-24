@@ -8,6 +8,7 @@ import {
     Param,
     Patch,
     Post,
+    Logger,
   } from '@nestjs/common';
   import { ParseIntPipe } from '@nestjs/common/pipes/parse-int.pipe';
   import { Indicacao } from './interfaces/indicacoes.entity';
@@ -16,6 +17,7 @@ import {
 
 @Controller('v1/indicacoes')
 export class IndicacoesController {
+  private readonly logger = new Logger(IndicacoesController.name);
   constructor(private indicacoesService: IndicacoesService) {}
 
   @Get()
@@ -29,6 +31,13 @@ export class IndicacoesController {
       limit,
       route: '/',
     });
+  }
+
+  @Get('/:id')
+  async findOne(
+    @Param('id') id: string
+  ){
+    return await this.indicacoesService.findOne(id)
   }
 }
 

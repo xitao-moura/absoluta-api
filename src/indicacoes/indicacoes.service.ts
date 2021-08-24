@@ -7,6 +7,7 @@ import {
   Pagination,
   IPaginationOptions,
 } from 'nestjs-typeorm-paginate';
+import { debug } from 'console';
 
 @Injectable()
 export class IndicacoesService {
@@ -33,5 +34,17 @@ export class IndicacoesService {
     queryBuilder.orderBy('i.created', 'DESC')
 
     return paginate<Indicacao>(queryBuilder, options);
+  }
+
+  async findOne(id: string) {
+    let indicacao = await this.indicacaoRepository.createQueryBuilder('i')
+    .leftJoinAndSelect('i.status', 'status')
+    .leftJoinAndSelect('i.tipo', 'tipo')
+    .leftJoinAndSelect('i.origem', 'origem')
+    .leftJoinAndSelect('i.profissao', 'profissao')
+    .where(`i.id = ${id}`)
+    .getOne();
+    console.log(indicacao)
+    return indicacao
   }
 }

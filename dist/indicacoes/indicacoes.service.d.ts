@@ -6,4 +6,5 @@ export declare class IndicacoesService {
     constructor(indicacaoRepository: Repository<Indicacao>);
     getIndicacoes(): Promise<any>;
     paginate(options: IPaginationOptions): Promise<Pagination<Indicacao>>;
+    findOne(id: string): Promise<Indicacao>;
 }

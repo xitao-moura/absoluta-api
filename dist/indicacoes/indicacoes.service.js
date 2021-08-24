@@ -36,6 +36,17 @@ let IndicacoesService = class IndicacoesService {
         queryBuilder.orderBy('i.created', 'DESC');
         return nestjs_typeorm_paginate_1.paginate(queryBuilder, options);
     }
+    async findOne(id) {
+        let indicacao = await this.indicacaoRepository.createQueryBuilder('i')
+            .leftJoinAndSelect('i.status', 'status')
+            .leftJoinAndSelect('i.tipo', 'tipo')
+            .leftJoinAndSelect('i.origem', 'origem')
+            .leftJoinAndSelect('i.profissao', 'profissao')
+            .where(`i.id = ${id}`)
+            .getOne();
+        console.log(indicacao);
+        return indicacao;
+    }
 };
 IndicacoesService = __decorate([
     common_1.Injectable(),

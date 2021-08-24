@@ -11,14 +11,16 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var __param = (this && this.__param) || function (paramIndex, decorator) {
     return function (target, key) { decorator(target, key, paramIndex); }
 };
+var IndicacoesController_1;
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.IndicacoesController = void 0;
 const common_1 = require("@nestjs/common");
 const parse_int_pipe_1 = require("@nestjs/common/pipes/parse-int.pipe");
 const indicacoes_service_1 = require("./indicacoes.service");
-let IndicacoesController = class IndicacoesController {
+let IndicacoesController = IndicacoesController_1 = class IndicacoesController {
     constructor(indicacoesService) {
         this.indicacoesService = indicacoesService;
+        this.logger = new common_1.Logger(IndicacoesController_1.name);
     }
     findAll(page = 1, limit = 10) {
         limit = limit > 100 ? 100 : limit;
@@ -27,6 +29,9 @@ let IndicacoesController = class IndicacoesController {
             limit,
             route: '/',
         });
+    }
+    async findOne(id) {
+        return await this.indicacoesService.findOne(id);
     }
 };
 __decorate([
@@ -37,7 +42,14 @@ __decorate([
     __metadata("design:paramtypes", [Number, Number]),
     __metadata("design:returntype", void 0)
 ], IndicacoesController.prototype, "findAll", null);
-IndicacoesController = __decorate([
+__decorate([
+    common_1.Get('/:id'),
+    __param(0, common_1.Param('id')),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", [String]),
+    __metadata("design:returntype", Promise)
+], IndicacoesController.prototype, "findOne", null);
+IndicacoesController = IndicacoesController_1 = __decorate([
     common_1.Controller('v1/indicacoes'),
     __metadata("design:paramtypes", [indicacoes_service_1.IndicacoesService])
 ], IndicacoesController);
